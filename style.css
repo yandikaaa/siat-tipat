@@ -222,6 +222,67 @@ section h2{
 }
 
 /* ==========================
+   PROFIL
+========================== */
+
+.profil{
+
+    display:flex;
+    align-items:center;
+    gap:60px;
+    padding:90px 10%;
+    background:#ffffff;
+
+}
+
+.profil-img{
+
+    flex:1;
+    text-align:center;
+
+}
+
+.profil-img img{
+
+    width:320px;
+    height:320px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid #D4AF37;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.profil-text{
+
+    flex:2;
+
+}
+
+.profil-text h2{
+
+    color:#8B1E1E;
+    margin-bottom:20px;
+
+}
+
+.profil-text h3{
+
+    color:#D4AF37;
+    margin-bottom:20px;
+    font-size:28px;
+
+}
+
+.profil-text p{
+
+    text-align:justify;
+    line-height:2;
+    margin-bottom:15px;
+
+}
+
+/* ==========================
    CARD
 ========================== */
 
@@ -708,6 +769,26 @@ grid-template-columns:1fr;
 section{
 
 padding:70px 8%;
+
+}
+
+.profil{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+.profil-img img{
+
+    width:220px;
+    height:220px;
+
+}
+
+.profil-text h2{
+
+    text-align:center;
 
 }
 
